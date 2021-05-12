@@ -18,12 +18,11 @@ class InicioController extends \yii\web\Controller
     }
 
     public function actionVerComentarios($id){
-        
         return $this->render("comentarios");
     }
 
     public function actionVerAutor(){
-        
+        //aqui va otro metodo
     }
 
 }
