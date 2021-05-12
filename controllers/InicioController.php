@@ -18,6 +18,9 @@ class InicioController extends \yii\web\Controller
     }
 
     public function actionVerComentarios($id){
+        if(1==1){
+            //no hacemos nada
+        }
         return $this->render("comentarios");
     }
 
