@@ -18,8 +18,8 @@ class InicioController extends \yii\web\Controller
     }
 
     public function actionVerComentarios($id){
-        echo $id;
-        echo Yii::$app->request->post("id");
+        
+        return $this->render("comentarios");
     }
 
 }
