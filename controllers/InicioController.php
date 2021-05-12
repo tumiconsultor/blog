@@ -22,4 +22,8 @@ class InicioController extends \yii\web\Controller
         return $this->render("comentarios");
     }
 
+    public function actionVerAutor(){
+        
+    }
+
 }
