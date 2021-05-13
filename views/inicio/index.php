@@ -1,5 +1,6 @@
 <?php
 use yii\helpers\Html;
+use yii\widgets\LinkPager;
 ?>
 <table class="table table-striped table-bordered">
 <thead>
@@ -25,3 +26,4 @@ foreach($publicaciones as $publicacion){
 }
 ?>
 </table>
+<?=LinkPager::widget(["pagination"=>$paginador ])?>

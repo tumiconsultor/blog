@@ -1,6 +1,7 @@
 <h3>
 comentarios
 </h3>
-
-<h7>Aqui se van a listar los comentarios</h7>
-<p>by bsolanoa</p>
+<?php
+foreach($comentarios as $comentario){
+    echo $comentario["id"]."-".$comentario["contenido"]."<br>";
+}
